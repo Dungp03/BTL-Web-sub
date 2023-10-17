@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sản phẩm</title>
     <link rel="stylesheet" href="/SanPham/style.css">
@@ -25,7 +26,7 @@
             <li><a href="/DanhMuc/index.html">Danh mục</a></li>
             <li><a href="./index.html" class="product-active">Sản phẩm</a></li>
             <li><a href="/contact/index.html">Liên hệ</a></li>
-            <li><a href="#customers">Khách hàng</a></li>
+            <li><a href="/KhachHang/index.html">Khách hàng</a></li>
         </ul>
         <!--Profile-->
         <div class="profile">
@@ -40,6 +41,7 @@
               <div class="cart-title">Giỏ hàng</div>
               <!--Content-->
               <div class="cart-content">
+                <!--Cart-box-1-->
                   <div class="cart-box">
                       <img src="/image/nho.png" alt="" class="cart-img">
                       <div class="detail-box">
@@ -49,6 +51,26 @@
                       </div>
                       <i class='bx bxs-trash cart-remove'></i>
                   </div>
+                  <!--Cart-box-2-->
+                  <div class="cart-box">
+                    <img src="/image/raucai.png" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Rau Cải</div>
+                        <div class="cart-price">110.000 VND</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash cart-remove'></i>
+                </div>
+                <!--Cart-box-3-->
+                <div class="cart-box">
+                    <img src="/image/sữa.png" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Sữa Vinamilk có đường</div>
+                        <div class="cart-price">110.000 VND</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash cart-remove'></i>
+                </div>
               </div>
               <div class="total">
                   <div class="total-title">Tổng giá: </div>
@@ -69,8 +91,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -80,8 +102,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -91,8 +113,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -102,30 +124,30 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
-            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>  
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
             <span class="discount">-25%</span>
         </div>
         <!--box 5-->
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
-            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i> 
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
             <span class="discount">-25%</span>
         </div>
         <!--box 6-->
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -135,8 +157,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -146,8 +168,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -157,8 +179,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -168,8 +190,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -179,8 +201,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -190,8 +212,8 @@
         <div class="box">
             <a href=""><img src="/image/nho.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
-            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <h2><a href=""> Nho Đà Lạt</a></h2>
+            <h3 class="price">110.500 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
             <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
@@ -199,6 +221,7 @@
         </div>
     </div>
     </section>
+
     <section class="products" id="products">
         <div class="heading">
             <h1>Sản phẩm <br> <span>phổ biến nhất</h1>
@@ -307,9 +330,9 @@
         </div>
         <!--box 10-->
         <div class="box">
-            <a href=""><img src="/image/nho.png" alt=""></a>
+            <a href=""><img src="/image/raucai.png" alt=""></a>
             <span>Đồ tươi</span>
-            <h2><a href="">Trang trại Đà Lạt <br>Nho tím 250g</a></h2>
+            <h2><a href="">Rau cải</a></h2>
             <h3 class="price">110.000 VND <span>/kg</span></h3>
             <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
             <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
@@ -340,6 +363,197 @@
         </div>
     </div>
     </section>
+
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Sản phẩm <br> <span>phổ biến nhất</h1>
+                <a href="#" class="btn">Mua ngay<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+    <!--Product Content-->
+    <div class="products-container">
+        <!--box 1-->
+        <div class="box">
+            <a href="/Sản phẩm 1/web.html"><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="/Sản phẩm 1/web.html">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 2-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 3-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 4-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 5-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 6-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 7-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 8-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 9-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 10-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 11-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+        <!--box 12-->
+        <div class="box">
+            <a href=""><img src="/image/sữa.png" alt=""></a>
+            <span>Đồ hộp</span>
+            <h2><a href="">Sữa Vinamilk có đường</a></h2>
+            <h3 class="price">110.000 VND <span>/kg</span></h3>
+            <button type="button" class="cart-btn"><i class='bx bx-cart-alt'></i></button>
+            <i class='bx bx-heart heartIcon' onclick='toggleHeartIcon(event)'></i>
+            <i class='bx bxs-heart heartIconAlt' onclick='toggleHeartIcon(event)'></i>   
+            <span class="discount">-25%</span>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+        <div class="footer-section">
+            <div class="store">
+                <h4> <i class='bx bxs-basket'></i> Bách Hoá 4.0</h4>
+                <p>Yên nghĩa, Hà Đông, Phenikaa</p>
+            </div>
+            <div class="social-icons">
+                <a href="link-to-facebook-profile" target="_blank">
+					<i class='bx bxl-facebook-circle'></i>
+				</a>
+				<a href="link-to-twitter-profile" target="_blank">
+					<i class='bx bxl-twitter' ></i>
+				</a>
+				<a href="link-to-instagram-profile" target="_blank">
+					<i class='bx bxl-instagram-alt' ></i>
+				</a>
+				<a href="link-to-youtube-channel" target="_blank">
+					<i class='bx bxl-youtube' ></i>
+				</a>
+            </div>
+        </div>
+    
+        <div class="footer-section">
+            <h4>Một số thể loại</h4>
+            <ul>
+                <li><a href="">Rau củ quả</a></li>
+                <li><a href="">Sản phẩm sữa</a></li>
+                <li><a href="">Thực phẩm trọn gói</a></li>
+                <li><a href="">Đồ uống</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h4>Liên kết hữu ích</h4>
+            <ul>
+                <li><a href="">Thanh toán & thuế</a></li>
+                <li><a href="">Điều khoản sử dụng</a></li>
+                <li><a href="">Tài khoản của tôi</a></li>
+                <li><a href="">Hỗ trợ khách hàng</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h4>Thông tin liên hệ</h4>
+            <p>Nhận giảm giá 10% với email</p>
+            <input type="email" placeholder="carpool@gmail.com">
+            <button1>➔</button1>
+        </div>
+    </div>
     <!--Link to JS file-->
     <script src="/TrangChu/main.js"></script>
 </body>

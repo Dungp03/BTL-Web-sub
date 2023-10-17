@@ -450,3 +450,66 @@ header{
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
 
 }
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #57bf37;
+    margin: 20px 20px 20px 20px;
+    color: whitesmoke;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.store .bxs-basket{
+    color: var(--light-orange-color);
+
+}
+.store p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.social-icons i{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li a{
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-size: 500;
+    
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+button1 {
+    padding: 11px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
